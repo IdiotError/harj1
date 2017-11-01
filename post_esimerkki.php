@@ -1,6 +1,6 @@
 <?php include "menu.php" ?>
 <h1>Get esimerkki</h1>
-<form action="get_esimerkki.php" method="get">
+<form action="post_esimerkki.php" method="post">
   <table border="0">
     <tr>
       <td><label for="en">Etunimi</label></td>
@@ -11,14 +11,14 @@
       <td><input type="text" id="sn" name="sn"></td>
     </tr>
   </table>
-  <input type="submit" class="button" name="btnSend" value="Lähetä">
+  <input type="submit" name="btnSend" value="Lähetä">
 </form>
 <?php
 
-if(isSet($_GET['btnSend'])){
-  $etu=$_GET['en'];
-  $suku=$_GET['sn'];
+if(isSet($_POST['btnSend'])){
+  $etu=$_POST['en'];
+  $suku=$_POST['sn'];
   echo 'Hei ' .$etu.' '.$suku;
 }
 ?>
-<?php include "footer.php"; ?>
+<?php include "footer.php" ?>

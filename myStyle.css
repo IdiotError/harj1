@@ -1,0 +1,32 @@
+#menu{
+  float: left;
+  width: 150px;
+  background-color: inherit;
+  border-radius: 5px;
+}
+
+#menu ul{
+  list-style-type: none;
+}
+
+#menu ul li a:hover{
+  background-color: #565656;
+
+}
+
+#content{
+  margin-left: 170px;
+}
+h1{
+  color: #560000;
+}
+body{
+  background-color: #686868;
+}
+
+.button{
+  border: none;
+  background-color: #191919;
+  color: #c9c9c9;
+  display: inline-block;
+}
