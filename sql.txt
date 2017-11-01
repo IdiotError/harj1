@@ -1,0 +1,15 @@
+CREATE DATABASE harjoitus1;
+USE harjoitus1;
+
+GRANT ALL ON harjoitus1.* TO 'webuser'@'localhost' IDENTIFIED BY 'webpass';
+
+CREATE TABLE tOpiskelijat(
+  idOpiskelija INT PRIMARY KEY AUTO_INCREMENT,
+  etunimi VARCHAR(20),
+  sukunimi VARCHAR(50),
+  syntymavuosi SMALLINT
+);
+
+INSERT INTO tOpiskelijat(etunimi,sukunimi,syntymavuosi)
+  VALUES('Mikko','Mallikas',1993)
+;
