@@ -13,3 +13,12 @@ CREATE TABLE tOpiskelijat(
 INSERT INTO tOpiskelijat(etunimi,sukunimi,syntymavuosi)
   VALUES('Mikko','Mallikas',1993)
 ;
+INSERT INTO tOpiskelijat(etunimi,sukunimi,syntymavuosi)
+  VALUES('Anna','Taipale',1991)
+;
+INSERT INTO tOpiskelijat(etunimi,sukunimi,syntymavuosi)
+  VALUES('Juuso','Keränen',1996)
+;
+INSERT INTO tOpiskelijat(etunimi,sukunimi,syntymavuosi)
+  VALUES('Eero','Joensuu',1993)
+;
