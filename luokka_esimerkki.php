@@ -1,6 +1,6 @@
 <?php include "menu.php"; ?>
 
-<h1>php class esimerki</h1>
+<h1>Php class esimerki</h1>
 Opiskelijat ovat:<br>
 <?php
   include "classOpiskelija.php";
